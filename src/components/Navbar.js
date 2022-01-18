@@ -2,6 +2,10 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
 const Navbar =() => {
+  // console.log(props)
+  // setTimeout(() => {
+  //   props.history.push('/about')
+  // }, 2000)
   
     return (
       <nav className='ui raised very padded segment'>

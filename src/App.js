@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Switch } from 'react-router-dom'
 import About from './components/About';
 import Card from './components/Card';
 import Contact from './components/Contact';
@@ -14,11 +14,14 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
+      {/* <Switch>
 
+      </Switch> */}
         <Route exact path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/card/:user' element={<Card />} />
+        <Route path='/:user' element={<Card />} />
+
       </Routes>
 
     </div>

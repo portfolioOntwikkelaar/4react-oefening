@@ -9,11 +9,11 @@ const Contact = (props) => {
     <div>
 
     <div className='ui raised very padded text container segment ' style={{marginTop: '80px'}}>
-      <Link to='/card/Veerle' className='ui header'>Veerle</Link>
+      <Link to='/Veerle' className='ui header'>Veerle</Link>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
     <div className='ui raised very padded text container segment ' style={{marginTop: '80px'}}>
-      <Link to='/card/Samuel' className='ui header'>Samuel</Link>
+      <Link to='/Samuel' className='ui header'>Samuel</Link>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
     </div>
